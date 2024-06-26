@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 50px;
+            width:30px;
+            margin: 2px;
+            animation-name:changecolor;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes changecolor{
+            from{
+                background-color: antiquewhite;
+                transform: translateY(0px);
+                height: 200px;
+            }
+            to{
+                background-color: rgb(170, 46, 106);
+                transform: translateY(0px);
+            }
+        }
+        .div1{
+            background-color: brown;
+            animation-delay: 0.2s;
+            bottom: 50vh;
+            position: absolute;
+            left: 33vw;
+        }
+        .div2{
+            background-color: rgb(11, 204, 108);
+            animation-delay: 0.3s;
+            bottom: 50vh;
+            position: absolute;
+            left: 39vw;
+        }
+        .div3{
+            background-color: rgb(76, 23, 210);
+            animation-delay: 0.4s;
+            bottom: 50vh;
+            position: absolute;
+            left: 45vw;
+        }
+        .div4{
+            background-color: rgb(161, 12, 101);
+            animation-delay: 0.5s;
+            bottom: 50vh;
+            position: absolute;
+            left: 51vw;
+        }
+        .div5{
+            background-color: rgb(5, 5, 6);
+            animation-delay: 0.6s;
+            bottom: 50vh;
+            position: absolute;
+            left: 57vw;
+        }
+        .mn{
+            margin-left: 500px;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="mn">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+    </section>
+</body>
+</html>
